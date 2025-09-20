@@ -1,10 +1,11 @@
 font-family =  "FiraCode Nerd Font Mono"
-font-size = 16
-theme = GruvboxDarkHard
+font-size = 14
 window-padding-balance = true
 window-padding-x = 0
 window-padding-y = 0
+theme = Gruvbox Material
 window-padding-color = extend
 window-decoration = false
 window-save-state = always
-maximize = true
+
+
