@@ -31,8 +31,8 @@ function fish_prompt
         set initial_indicator "$green"
         set status_indicator "$normal❯$cyan❯$green❯"
     else
-        set initial_indicator "$red✖ $last_status"
-        set status_indicator "$red❯$red❯$red❯"
+        set initial_indicator "$red $last_status"
+        set status_indicator "$red❯$cyan❯$red❯"
     end
     set -l cwd $cyan(basename (prompt_pwd))
 
