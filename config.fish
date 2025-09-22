@@ -14,6 +14,22 @@ end
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+function fish_prompt
+    printf '%s' $PWD (fish_git_prompt) ' $ '
+end
+
+# git aliases
+abbr -a gst "git status"
+abbr -a gco "git checkout"
+abbr -a gd "git diff"
+abbr -a gl "git pull"
+abbr -a gp "git push"
+abbr -a gcm "git commit -m"
+abbr -a glog "git log --oneline --decorate --graph"
+
+# key binding for accept-autosuggestion 
+bind \cy accept-autosuggestion
+
 # Sashimi shellni theme desa bo'ladi
 function fish_prompt
     set -l last_status $status
