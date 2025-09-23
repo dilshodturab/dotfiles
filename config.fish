@@ -3,6 +3,7 @@ set fish_greeting # intro messageni supress qiladi
 # Aliaslar
 alias vi='nvim'
 alias e='exit'
+alias cl='clear'
 
 # bu default fish code
 if status is-interactive
