@@ -20,9 +20,10 @@ function fish_prompt
 end
 
 # git aliases
-abbr -a gst "git status"
+abbr -a gs "git status"
 abbr -a gco "git checkout"
 abbr -a gd "git diff"
+abbr -a ga "git add ."
 abbr -a gl "git pull"
 abbr -a gp "git push"
 abbr -a gcm "git commit -m"
@@ -45,11 +46,12 @@ function fish_prompt
     set -g whitespace ' '
 
     if test $last_status = 0
-        set initial_indicator "$green"
-        set status_indicator "$normal❯$cyan❯$green❯"
+        set initial_indicator "$blue󱙝 $normal❯"
+        # set status_indicator "$normal❯$cyan❯$green❯"
+        set status_indicator "$cyan󰣇$cyan❯$green❯"
     else
-        set initial_indicator "$red $last_status"
-        set status_indicator "$red❯$cyan❯$red❯"
+        set initial_indicator "$red󱙝 $red❯ $last_status"
+        set status_indicator "$red󰣇$cyan❯$red❯"
     end
     set -l cwd $cyan(basename (prompt_pwd))
 
