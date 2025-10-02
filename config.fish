@@ -46,12 +46,12 @@ function fish_prompt
     set -g whitespace ' '
 
     if test $last_status = 0
-        set initial_indicator "$blue󱙝 $normal❯"
+        set initial_indicator "$blue󰣇"
         # set status_indicator "$normal❯$cyan❯$green❯"
-        set status_indicator "$cyan󰣇$cyan❯$green❯"
+        set status_indicator "$cyan❯$green❯"
     else
-        set initial_indicator "$red󱙝 $red❯ $last_status"
-        set status_indicator "$red󰣇$cyan❯$red❯"
+        set initial_indicator "$red󰣇 $last_status"
+        set status_indicator "$cyan❯$red❯"
     end
     set -l cwd $cyan(basename (prompt_pwd))
 
