@@ -43,4 +43,13 @@
       <property name="save" type="bool" value="false"/>
     </property>
   </property>
+  <property name="item-icon-size" type="uint" value="4"/>
+  <property name="hide-window-decorations" type="bool" value="true"/>
+  <property name="generic-names" type="bool" value="true"/>
+  <property name="icon-view" type="bool" value="false"/>
+  <property name="close-on-focus-lost" type="bool" value="true"/>
+  <property name="sort-by-frecency" type="bool" value="true"/>
+  <property name="text-beside-icons" type="bool" value="true"/>
+  <property name="remember-category" type="bool" value="true"/>
+  <property name="hide-category-pane" type="bool" value="true"/>
 </channel>

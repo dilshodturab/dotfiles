@@ -1,8 +1,8 @@
 display_label=false
-display_icon=false
-display_power=false
-display_percentage=false
-display_bar=true
+display_icon=true
+display_power=true
+display_percentage=true
+display_bar=false
 display_time=false
 tooltip_display_percentage=false
 tooltip_display_time=true
