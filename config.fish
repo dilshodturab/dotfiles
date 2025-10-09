@@ -4,6 +4,7 @@ set fish_greeting # intro messageni supress qiladi
 alias vi='nvim'
 alias e='exit'
 alias cl='clear'
+alias t='tmux'
 
 # bu default fish code
 if status is-interactive
