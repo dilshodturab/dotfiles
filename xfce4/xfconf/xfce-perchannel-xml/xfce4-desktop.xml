@@ -26,7 +26,7 @@
     <property name="screen0" type="empty">
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/home/dilshod/Desktop/dotfiles/wallpapers/selsey-lifeboat-station-england-seascape-blue-background-3840x2160-5919.jpg"/>
+          <property name="last-image" type="string" value="/home/dilshod/Desktop/dotfiles/wallpapers/timothy-lake-oregon-green-trees-forest-woods-wooden-house-3840x2160-3934.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-period" type="int" value="1"/>
           <property name="backdrop-cycle-timer" type="uint" value="5"/>
