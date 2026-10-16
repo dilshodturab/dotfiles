@@ -9,7 +9,7 @@
 {
   "cli_default_open_behavior": "existing_window",
   "disable_ai": true,
-  "diff_view_style": "split",
+  "diff_view_style": "unified",
   "autosave": "on_focus_change",
   "lsp": {
     "vtsls": {
@@ -71,7 +71,10 @@
   "theme": {
     "mode": "system",
     "light": "Gruvbox Light",
-    "dark": "Ghost in the Shell Dark",
+    "dark": "Gruvbox Baby",
+  },
+  "sticky_scroll": {
+    "enabled": true
   },
   "format_on_save": "on",
   "formatter": "language_server",
@@ -89,6 +92,6 @@
     "TSX": {
       "formatter": "language_server",
       "format_on_save": "on"
-    }
+    },
   }
 }
